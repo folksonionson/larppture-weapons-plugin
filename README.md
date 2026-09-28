@@ -29,13 +29,13 @@ Aliases: `/larppture`, `/larpptureweapons`.
 
 ## Install
 
-1. **Plugin** — drop `LarpptureWeapons-1.0.0.jar` (see
-   [Releases](../../releases)) into the server's `plugins/` folder and restart.
+1. **Plugin** — drop `LarpptureWeapons-1.0.0.jar` (repo root) into the
+   server's `plugins/` folder and restart.
    Built against `paper-api 1.21.11-R0.1-SNAPSHOT`, Java 21 bytecode.
 2. **Resource pack** — two options:
    * **Server push (recommended):** host `LarpptureWeapons-Pack-1.0.0.zip`
-     anywhere with direct downloads (GitHub release asset, nginx, object
-     storage...), then in `plugins/LarpptureWeapons/config.yml`:
+     (repo root) anywhere with direct downloads (nginx, object storage,
+     a file host...), then in `plugins/LarpptureWeapons/config.yml`:
      ```yaml
      resource-pack:
        push-on-join: true
