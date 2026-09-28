@@ -1,0 +1,6 @@
+# build outputs (jars / pack zips / classes) are released via GitHub Releases
+dist/
+build/
+node_modules/
+*.class
+.gradle/

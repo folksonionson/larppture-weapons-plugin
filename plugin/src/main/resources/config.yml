@@ -1,0 +1,52 @@
+# ============================================================================
+# Larppture Weapons - configuration
+# Paper 1.21.11
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# Companion resource pack (Larppture Weapons - Dark 2D Weapons, pack_format 75)
+#
+# push-on-join: send the pack prompt to every joining player.
+# url:          direct-download URL of the pack .zip (any static host works).
+# sha1:         optional sha-1 of the zip (lowercase hex) so clients can cache.
+# uuid:         stable pack id; leave empty to derive one automatically.
+# force:        true = players refusing the pack are kicked (vanilla behaviour).
+# prompt:       message shown in the pack prompt ('&' colour codes).
+# ----------------------------------------------------------------------------
+resource-pack:
+  push-on-join: false
+  url: ""
+  sha1: ""
+  uuid: ""
+  force: false
+  prompt: "&4Larppture Weapons &7requires the &4Larppture &7resource pack."
+
+# ----------------------------------------------------------------------------
+# Legendary artifacts. enabled=false disables an artifact completely
+# (already-given items keep their look but lose their abilities).
+# ----------------------------------------------------------------------------
+weapons:
+  mace:
+    enabled: true
+    damage-bonus: 6.0
+    lifesteal-hearts: 2.0
+  scythe:
+    enabled: true
+    damage-bonus: 3.0
+    cooldown: 5.0        # seconds between reaps
+    arc-damage: 8.0
+    arc-radius: 4.0
+    wither-ticks: 40     # 2 seconds of Wither II on reaped targets
+  golden_trident:
+    enabled: true
+    damage-bonus: 2.0
+    cooldown: 3.0        # seconds between storm strikes
+    lightning-damage: 4.0
+  elytra:
+    enabled: true
+    cooldown: 4.0        # seconds between super dashes
+    dash-power: 2.2      # horizontal burst speed
+    dash-lift: 0.35      # minimum vertical component of the dash
+  rubik_cube:
+    enabled: true
+    cooldown: 10.0       # seconds between twists

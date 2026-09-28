@@ -1,0 +1,18 @@
+name: LarpptureWeapons
+version: 1.0.0
+main: dev.larppture.weapons.LarpptureWeapons
+api-version: '1.21'
+description: Legendary artifacts of Larppture - mace, scythe, golden trident, void elytra and the chaos cube, with a companion resource pack.
+author: folksonionson
+commands:
+  lwp:
+    description: Larppture Weapons control command.
+    usage: /lwp <give|list|info|reload|pack>
+    aliases: [larppture, larpptureweapons]
+permissions:
+  larppture.give:
+    description: Allows giving legendary artifacts.
+    default: op
+  larppture.admin:
+    description: Allows reloading the config and pushing the resource pack.
+    default: op
